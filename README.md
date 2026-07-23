@@ -78,6 +78,7 @@ Grad-CAM heatmaps confirmed the model's attention concentrates on lung regions f
 
 ## Project Structure
 
+```
 ├── PNEUMONIADETECTIONCNN.ipynb     # Main notebook (data prep, training, evaluation, Grad-CAM)
 ├── README.md                       # Project documentation
 ├── baseline_cnn_pneumonia.h5       # Saved baseline CNN model weights
@@ -85,6 +86,7 @@ Grad-CAM heatmaps confirmed the model's attention concentrates on lung regions f
 ├── confusion_matrix_vgg16.png      # Confusion matrix - VGG16 Transfer Learning
 ├── gradcam_comparison.png          # Grad-CAM visualization (Normal vs Pneumonia)
 └── sample_xrays.png                # Sample dataset images
+```
 
 ## Key Takeaways
 
